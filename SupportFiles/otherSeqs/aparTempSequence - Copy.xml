@@ -1,0 +1,704 @@
+<Array>
+<Name>TestSequence</Name>
+<Dimsize>13</Dimsize>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>0</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>0</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>7</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>33.75000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>28.12500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>22.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>16.87500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>11.25000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.62500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>4.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>3.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>0</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>0</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>7</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>33.75000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>28.12500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>22.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>16.87500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>11.25000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.62500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>4.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>3.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>1</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>1</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>1</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>1</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>2</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>2</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>2</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>2</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Test</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>RF In/Out</Name>
+<Choice>Tx - RF In</Choice>
+<Choice>Rx - RF Out</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>TR Module 0-7</Name>
+<Val>0</Val>
+</I32>
+<EW>
+<Name>Polarization</Name>
+<Choice>Vertical</Choice>
+<Choice>Horizontal</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>PhaseShift deg</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Attenuation dB</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<EW>
+<Name>StepType</Name>
+<Choice>NewConnection</Choice>
+<Choice>SweepTest</Choice>
+<Choice>Motion</Choice>
+<Choice>Finish</Choice>
+<Val>3</Val>
+</EW>
+</Cluster>
+</Array>

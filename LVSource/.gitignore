@@ -1,0 +1,9 @@
+# LabVIEW Files #
+#################
+*.aliases
+*.lvlps
+.cache/
+.csv
+/builds
+/DataFiles
+

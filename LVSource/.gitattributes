@@ -1,0 +1,4 @@
+*.lvproj binary
+*.lvclass binary
+*.lvlib binary
+*.lvbitx binary

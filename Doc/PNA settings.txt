@@ -1,0 +1,4 @@
+Stimulus.Frequency.Start/Stop		5GHz	6GHz
+Stimulus.Frequency.Center/Span		5.5GHz	1GHz
+Stimulus.Power On (all channels)	True
+Stimulus.Power Port 2 Port Power	-30.00 dBm
