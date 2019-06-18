@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -49,6 +49,7 @@
 		<Item Name="ExistingFileMgr.lvclass" Type="LVClass" URL="../Classes/ExistingFileMgr/ExistingFileMgr.lvclass"/>
 		<Item Name="MotionComm.lvclass" Type="LVClass" URL="../Classes/MotionComm/MotionComm.lvclass"/>
 		<Item Name="LookupTableBuild.vi" Type="VI" URL="../Classes/sub-systems/LookupTableBuild.vi"/>
+		<Item Name="getPositions2string.vi" Type="VI" URL="../Classes/Datalog/getPositions2string.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -404,49 +405,28 @@
 				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 14.0</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{1601A0F4-B5D1-4488-881C-9158DFB0D05C}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Run-Time Engine 2014 f1</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{B20204CA-DD51-4527-95BC-C7D4D15EF68C}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2019</Property>
 				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2014 Non-English Support.</Property>
-				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{CAC8FA79-6D3D-4263-BB7B-1A706EF87C08}</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI mDNS Responder 14.0</Property>
-				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">NI Deployment Framework 2014</Property>
-				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[3].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[12].productName" Type="Str">NI Error Reporting 2014</Property>
-				<Property Name="DistPart[3].SoftDep[12].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Service Locator 14.0</Property>
-				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{B235B862-6A92-4A04-A8B2-6D71F777DE67}</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{3BDD0408-2F90-4B42-9777-5ED1D4BE67A8}</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI Logos 14.0</Property>
-				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI TDM Streaming 14.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI TDM Streaming 19.0</Property>
 				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2014</Property>
-				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{4A8BDBBB-DA1C-45C9-8563-74C034FBD357}</Property>
-				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2014</Property>
-				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{4372F3E3-5935-4012-93AB-B6710CE24920}</Property>
-				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">13</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{4722F14B-8434-468D-840D-2B0CD8CBD5EA}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">6</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">Bolder Software LLC</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -457,7 +437,7 @@
 				<Property Name="INST_productName" Type="Str">APAR Test Main</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">14008036</Property>
+				<Property Name="InstSpecVersion" Type="Str">19008005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Bolder Software LLC</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{C54256DC-D217-4300-9946-F488A24CC6C1}</Property>

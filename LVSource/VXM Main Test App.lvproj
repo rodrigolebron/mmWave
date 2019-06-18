@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -41,7 +41,6 @@
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
@@ -56,7 +55,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -90,13 +88,11 @@
 			<Item Name="UserEvent-ExitEventLoop.lvlib" Type="Library" URL="../Support/UserEvent-ExitEventLoop/UserEvent-ExitEventLoop.lvlib"/>
 			<Item Name="VXMCfg.ctl" Type="VI" URL="../Classes/VXMCfg/VXMCfg.ctl"/>
 			<Item Name="Write Config File Section.vi" Type="VI" URL="../Support/Config Tools/BSoft/Write Config File Section.vi"/>
-			<Item Name="ConvertTo(MoveAllAbsolute).vi" Type="VI" URL="../Support/MessageAPI/ConvertTo(MoveAllAbsolute).vi"/>
 			<Item Name="Enque(MoveAllAbsolute).vi" Type="VI" URL="../Support/MessageAPI/Enque(MoveAllAbsolute).vi"/>
 			<Item Name="Position.ctl" Type="VI" URL="../Classes/VXMMotionManager/Position.ctl"/>
 			<Item Name="MoveAllAbsolute.ctl" Type="VI" URL="../Support/MessageAPI/MoveAllAbsolute.ctl"/>
 			<Item Name="ConvertTo(UIMessage).vi" Type="VI" URL="../Support/MessageAPI/ConvertTo(UIMessage).vi"/>
 			<Item Name="Enque(arrayDBL).vi" Type="VI" URL="../Support/MessageAPI/Enque(arrayDBL).vi"/>
-			<Item Name="ConvertTo(arrayDBL).vi" Type="VI" URL="../Support/MessageAPI/ConvertTo(arrayDBL).vi"/>
 			<Item Name="~ simulation prototype subvi.vi" Type="VI" URL="../Classes/VXMMotionManager/VXMMotionManagersubvis/~ simulation prototype subvi.vi"/>
 			<Item Name="MotionExecutionCtrlRefs.ctl" Type="VI" URL="../Classes/UI ExecutionCtrls/MotionExecutionCtrlRefs.ctl"/>
 			<Item Name="PositonIndicatorsCtrlRefs.ctl" Type="VI" URL="../Classes/UI MotionStatus/PositonIndicatorsCtrlRefs.ctl"/>
@@ -111,7 +107,18 @@
 			<Item Name="Enque(boolean).vi" Type="VI" URL="../Support/MessageAPI/Enque(boolean).vi"/>
 			<Item Name="Enque(MoveToPosition).vi" Type="VI" URL="../Support/MessageAPI/Enque(MoveToPosition).vi"/>
 			<Item Name="MotionTypes.ctl" Type="VI" URL="../Classes/VXMMotionManager/MotionTypes.ctl"/>
-			<Item Name="CamConfig.ctl" Type="VI" URL="../Classes/Camera/CamConfig.ctl"/>
+			<Item Name="mmWaveMotionCrtlRefs.ctl" Type="VI" URL="../Classes/UI ExecutionCtrls/mmWaveMotionCrtlRefs.ctl"/>
+			<Item Name="mmWaveAxis.ctl" Type="VI" URL="../APARMainSubvis/VXM Public API/mmWaveAxis.ctl"/>
+			<Item Name="singleAxisMoveDef.ctl" Type="VI" URL="../APARMainSubvis/VXM Public API/singleAxisMoveDef.ctl"/>
+			<Item Name="sub-syst.n.ctl" Type="VI" URL="../Classes/VXMCfg/sub-syst.n.ctl"/>
+			<Item Name="sub-systems.lvclass" Type="LVClass" URL="../Classes/sub-systems/sub-systems.lvclass"/>
+			<Item Name="LookupTableBuild.vi" Type="VI" URL="../Classes/sub-systems/LookupTableBuild.vi"/>
+			<Item Name="Enque(DBL).vi" Type="VI" URL="../Support/MessageAPI/Enque(DBL).vi"/>
+			<Item Name="VXM-MoveAbsolute.vi" Type="VI" URL="../APARMainSubvis/VXM Public API/VXM-MoveAbsolute.vi"/>
+			<Item Name="serialize_mmWaveMoves.vi" Type="VI" URL="../Classes/Datalog/serialize_mmWaveMoves.vi"/>
+			<Item Name="ConvertTo(boolean).vi" Type="VI" URL="../Support/MessageAPI/ConvertTo(boolean).vi"/>
+			<Item Name="ConvertTo(DBL).vi" Type="VI" URL="../Support/MessageAPI/ConvertTo(DBL).vi"/>
+			<Item Name="get axis names.vi" Type="VI" URL="../Classes/VSMx2/get axis names.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
